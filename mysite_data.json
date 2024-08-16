@@ -1,0 +1,1667 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-08-07T20:44:37.748Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Seller_1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-08-07T20:45:49.094Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Soft toy Fox",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-08-07T20:59:10.180Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Seller_2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-08-07T20:59:44.296Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Soft toy Doll",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-08-07T21:00:27.532Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Soft toy Fox",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-08-07T21:09:14.429Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Soft toy Baby",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-08-08T17:43:39.671Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Soft toy Fox",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-08-08T18:29:16.100Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Soft toy Fox small",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Price\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-08-08T18:29:24.584Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Soft toy Fox small",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-08-08T18:30:05.588Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Soft toy Fox middle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Price\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-08-08T18:30:11.615Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Soft toy Fox middle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-08-08T18:30:33.622Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Soft toy Baby Small",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-08-08T18:30:55.882Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Soft toy Baby Small",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-08-08T18:31:36.757Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Soft toy Baby Middle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-08-08T18:31:42.722Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Soft toy Baby Small",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-08-08T18:31:45.655Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Soft toy Baby Middle",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-08-08T18:31:49.955Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Soft toy Baby Middle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-08-08T18:32:36.893Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Soft toy Baby Big",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-08-08T18:32:41.811Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Soft toy Baby Big",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-08-08T18:33:30.729Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Soft toy Doll Big",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-08-08T18:33:43.384Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Soft toy Doll Small",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-08-08T18:34:16.997Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Soft toy Doll Middle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-08-08T18:34:21.931Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Soft toy Doll Big",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-08-10T09:40:09.264Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Comment by Nadiia on Soft toy Fox",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-08-10T12:09:24.706Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Comment by Nadiia on Soft toy Fox",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-08-10T12:09:52.281Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Comment by Nadiia on Soft toy Baby Small",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-08-10T14:10:08.409Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Soft toy Fox",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-08-10T14:11:02.914Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Soft toy Baby Small",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-08-10T14:16:02.999Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "baby",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-08-10T14:20:46.259Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Soft toy Doll Small",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-08-10T14:20:50.370Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Soft toy Baby Big",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-08-10T14:20:54.338Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Soft toy Doll Middle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-08-10T14:20:57.523Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Soft toy Doll Middle",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-08-10T14:23:20.502Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Soft toy Fox small",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-08-10T14:23:42.334Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Soft toy Fox middle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-08-10T14:23:58.616Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Soft toy Baby Middle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-08-10T15:40:19.180Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Soft toy Fox",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-08-10T15:40:56.883Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Soft toy Baby Big",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-08-10T15:41:25.417Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Soft toy Fox Big",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-08-10T15:42:17.374Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Soft toy Doll Middle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-08-10T15:46:13.797Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Soft toy Doll Big",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-08-10T15:46:18.216Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Soft toy Doll Big",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-08-10T15:46:22.776Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Soft toy Doll Small",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-08-10T16:35:11.512Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Soft toy Fox Big",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-08-10T16:35:33.109Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Soft toy Fox Big",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-08-10T18:38:29.739Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Markdown post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-08-10T18:40:01.937Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-08-10T19:23:01.591Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-08-10T19:40:22.173Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 8,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 8,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 8,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 8,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 9,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 9,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 9,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 9,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 10,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 10,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 10,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 10,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 11,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 11,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 11,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 11,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 12,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 12,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 12,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 12,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$nb3FDKt3UwuWqOtNXfvDTz$nW767fbjJZNuWfpyf/eTNa2qxQsB11sgKk2fuzQrrJ4=",
+    "last_login": "2024-08-07T17:27:09.784Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@exemple.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-08-07T17:27:01.528Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$bVpK6xnjzzuqGxgekIbnoj$4xO1+Cf8hrdiuOecpd8+MB9axSK/4+hBXOnxG59OyW8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Seller_1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-08-07T20:44:36.209Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$dWNQR4VclzJoKZuMjnJcxr$Jyc8KRuw+V9JbNUOykz+/+kxZdRKBsIwRnUkyHGk2Z0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Seller_2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-08-07T20:59:08.546Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "marketplace",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "marketplace",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "marketplace",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "75wgfs0ovfn53qz4z50syxjtze6tegyz",
+  "fields": {
+    "session_data": ".eJxVjEEKwyAQAP_iuQgaNdpj732D7K5rTVsUYnIK_XsRcmivM8McIsK-lbh3XuOSxFUocfllCPTiOkR6Qn00Sa1u64JyJPK0Xd5b4vftbP8GBXoZW6PcrMl7C4bsFCYyoBSCJm0z-5ymwLPnnANZ55ECzTk4dCohc9AoPl_cGjh_:1sbkRJ:6wgejKMTe3jB_L5Hedh6-9M2hv2Y1Dm-LQ_HzFkxJuQ",
+    "expire_date": "2024-08-21T17:27:09.791Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "toy",
+    "slug": "toy"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "fox",
+    "slug": "fox"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "baby",
+    "slug": "baby"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "doll",
+    "slug": "doll"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 8,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 1,
+    "content_type": 8,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 8,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 1,
+    "content_type": 8,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 1,
+    "content_type": 8,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 1,
+    "content_type": 8,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 1,
+    "content_type": 8,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 2,
+    "content_type": 8,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 1,
+    "content_type": 8,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 2,
+    "content_type": 8,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 1,
+    "content_type": 8,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 3,
+    "content_type": 8,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 3,
+    "content_type": 8,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 4,
+    "content_type": 8,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 1,
+    "content_type": 8,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 4,
+    "content_type": 8,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 21,
+  "fields": {
+    "tag": 4,
+    "content_type": 8,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 22,
+  "fields": {
+    "tag": 5,
+    "content_type": 8,
+    "object_id": 10
+  }
+},
+{
+  "model": "marketplace.product",
+  "pk": 1,
+  "fields": {
+    "title": "Soft toy Fox Big",
+    "slug": "soft-toy-fox-big",
+    "price": "100.00",
+    "seller": 2,
+    "description": "Meet our adorable plush fox toy, the perfect cuddle companion for all ages! Crafted with soft, high-quality materials, this charming fox features a vibrant orange body, fluffy white belly, and a bushy tail. Its cute, embroidered facial features and friendly expression make it irresistible. Ideal for snuggling, playtime, or as a delightful gift, this plush fox is sure to bring joy and comfort to anyone who holds it. Add a touch of woodland magic to your home with this lovable, huggable fox toy.",
+    "publish": "2024-08-07T20:42:56Z",
+    "created": "2024-08-07T20:45:49.089Z",
+    "updated": "2024-08-10T16:35:33.096Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "marketplace.product",
+  "pk": 2,
+  "fields": {
+    "title": "Soft toy Doll Small",
+    "slug": "soft-toy-doll-small",
+    "price": "104.00",
+    "seller": 3,
+    "description": "Introducing our charming soft toy doll, designed to be the perfect companion for children and collectors alike! This doll is crafted with ultra-soft, high-quality materials, ensuring endless hours of cuddling and play. She features a beautifully embroidered face with a sweet smile, sparkling eyes, and rosy cheeks. Dressed in a delightful outfit with intricate details, this soft toy doll brings a touch of magic and imagination to playtime. Lightweight and easy to carry, she's perfect for adventures at home or on the go. A wonderful gift for any occasion, this soft toy doll is sure to become a beloved friend.",
+    "publish": "2024-08-07T20:58:16Z",
+    "created": "2024-08-07T20:59:44.293Z",
+    "updated": "2024-08-10T15:46:22.765Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "marketplace.product",
+  "pk": 3,
+  "fields": {
+    "title": "Soft toy Baby Small",
+    "slug": "soft-toy-baby-small",
+    "price": "99.00",
+    "seller": 3,
+    "description": "Introducing our adorable soft toy baby doll, perfect for snuggling and imaginative play! Made with ultra-soft, high-quality materials, this baby doll features a gentle and friendly expression, complete with embroidered eyes and a sweet smile. Dressed in a cute, removable outfit, it’s perfect for children to dress and care for. Lightweight and huggable, this baby doll is an ideal companion for bedtime, car rides, or playtime. A wonderful gift for any occasion, this soft toy baby doll is sure to become a cherished friend for your little one.",
+    "publish": "2024-08-07T21:08:01Z",
+    "created": "2024-08-07T21:09:14.427Z",
+    "updated": "2024-08-10T14:11:02.907Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "marketplace.product",
+  "pk": 4,
+  "fields": {
+    "title": "Soft toy Fox middle",
+    "slug": "soft-toy-fox-middle",
+    "price": "22.00",
+    "seller": 1,
+    "description": "Meet our adorable plush fox toy, the perfect cuddle companion for all ages! Crafted with soft, high-quality materials, this charming fox features a vibrant orange body, fluffy white belly, and a bushy tail. Its cute, embroidered facial features and friendly expression make it irresistible. Ideal for snuggling, playtime, or as a delightful gift, this plush fox is sure to bring joy and comfort to anyone who holds it. Add a touch of woodland magic to your home with this lovable, huggable fox toy.",
+    "publish": "2024-08-07T21:33:02Z",
+    "created": "2024-08-07T21:33:03.183Z",
+    "updated": "2024-08-10T14:23:42.329Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "marketplace.product",
+  "pk": 5,
+  "fields": {
+    "title": "Soft toy Fox small",
+    "slug": "soft-toy-fox-small",
+    "price": "15.00",
+    "seller": 1,
+    "description": "Meet our adorable plush fox toy, the perfect cuddle companion for all ages! Crafted with soft, high-quality materials, this charming fox features a vibrant orange body, fluffy white belly, and a bushy tail. Its cute, embroidered facial features and friendly expression make it irresistible. Ideal for snuggling, playtime, or as a delightful gift, this plush fox is sure to bring joy and comfort to anyone who holds it. Add a touch of woodland magic to your home with this lovable, huggable fox toy.",
+    "publish": "2024-08-07T21:41:11Z",
+    "created": "2024-08-07T21:41:11.316Z",
+    "updated": "2024-08-10T14:23:20.494Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "marketplace.product",
+  "pk": 6,
+  "fields": {
+    "title": "Soft toy Baby Middle",
+    "slug": "soft-toy-baby-middle",
+    "price": "55.00",
+    "seller": 3,
+    "description": "Introducing our adorable soft toy baby doll, perfect for snuggling and imaginative play! Made with ultra-soft, high-quality materials, this baby doll features a gentle and friendly expression, complete with embroidered eyes and a sweet smile. Dressed in a cute, removable outfit, it’s perfect for children to dress and care for. Lightweight and huggable, this baby doll is an ideal companion for bedtime, car rides, or playtime. A wonderful gift for any occasion, this soft toy baby doll is sure to become a cherished friend for your little one.",
+    "publish": "2024-08-08T18:31:28Z",
+    "created": "2024-08-08T18:31:36.753Z",
+    "updated": "2024-08-10T14:23:58.611Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "marketplace.product",
+  "pk": 7,
+  "fields": {
+    "title": "Soft toy Baby Big",
+    "slug": "soft-toy-baby-big",
+    "price": "105.00",
+    "seller": 2,
+    "description": "Introducing our adorable soft toy baby doll, perfect for snuggling and imaginative play! Made with ultra-soft, high-quality materials, this baby doll features a gentle and friendly expression, complete with embroidered eyes and a sweet smile. Dressed in a cute, removable outfit, it’s perfect for children to dress and care for. Lightweight and huggable, this baby doll is an ideal companion for bedtime, car rides, or playtime. A wonderful gift for any occasion, this soft toy baby doll is sure to become a cherished friend for your little one.",
+    "publish": "2024-08-08T18:32:12Z",
+    "created": "2024-08-08T18:32:36.890Z",
+    "updated": "2024-08-10T15:40:56.866Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "marketplace.product",
+  "pk": 8,
+  "fields": {
+    "title": "Soft toy Doll Big",
+    "slug": "soft-toy-doll-big",
+    "price": "115.00",
+    "seller": 2,
+    "description": "Introducing our charming soft toy doll, designed to be the perfect companion for children and collectors alike! This doll is crafted with ultra-soft, high-quality materials, ensuring endless hours of cuddling and play. She features a beautifully embroidered face with a sweet smile, sparkling eyes, and rosy cheeks. Dressed in a delightful outfit with intricate details, this soft toy doll brings a touch of magic and imagination to playtime. Lightweight and easy to carry, she's perfect for adventures at home or on the go. A wonderful gift for any occasion, this soft toy doll is sure to become a beloved friend.",
+    "publish": "2024-08-08T18:32:55Z",
+    "created": "2024-08-08T18:33:30.727Z",
+    "updated": "2024-08-10T15:46:18.211Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "marketplace.product",
+  "pk": 9,
+  "fields": {
+    "title": "Soft toy Doll Middle",
+    "slug": "soft-toy-doll-middle",
+    "price": "155.00",
+    "seller": 3,
+    "description": "Introducing our charming soft toy doll, designed to be the perfect companion for children and collectors alike! This doll is crafted with ultra-soft, high-quality materials, ensuring endless hours of cuddling and play. She features a beautifully embroidered face with a sweet smile, sparkling eyes, and rosy cheeks. Dressed in a delightful outfit with intricate details, this soft toy doll brings a touch of magic and imagination to playtime. Lightweight and easy to carry, she's perfect for adventures at home or on the go. A wonderful gift for any occasion, this soft toy doll is sure to become a beloved friend.",
+    "publish": "2024-08-08T18:34:11Z",
+    "created": "2024-08-08T18:34:16.995Z",
+    "updated": "2024-08-10T15:42:17.358Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "marketplace.product",
+  "pk": 10,
+  "fields": {
+    "title": "Markdown post",
+    "slug": "markdown-post",
+    "price": "1.00",
+    "seller": 3,
+    "description": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n* One\r\n* Two\r\n* Three\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+    "publish": "2024-08-10T18:37:23Z",
+    "created": "2024-08-10T18:38:29.731Z",
+    "updated": "2024-08-10T19:40:22.167Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "marketplace.comment",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "name": "Nadiia",
+    "email": "nedilja90@gmail.com",
+    "body": "It's fine. I liked. Supper",
+    "created": "2024-08-10T09:40:09.262Z",
+    "updated": "2024-08-10T12:09:24.703Z",
+    "active": true
+  }
+},
+{
+  "model": "marketplace.comment",
+  "pk": 2,
+  "fields": {
+    "product": 3,
+    "name": "Nadiia",
+    "email": "nedilja90@gmail.com",
+    "body": "It's not bad.",
+    "created": "2024-08-10T12:02:07.765Z",
+    "updated": "2024-08-10T12:09:52.278Z",
+    "active": false
+  }
+},
+{
+  "model": "marketplace.comment",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "name": "Надежда Евтушенко",
+    "email": "nedilja90@gmail.com",
+    "body": "Small",
+    "created": "2024-08-10T12:07:44.051Z",
+    "updated": "2024-08-10T12:07:44.051Z",
+    "active": true
+  }
+},
+{
+  "model": "marketplace.comment",
+  "pk": 4,
+  "fields": {
+    "product": 8,
+    "name": "Nadiia",
+    "email": "nedilja90@gmail.com",
+    "body": "Doll is really big",
+    "created": "2024-08-10T12:08:40.942Z",
+    "updated": "2024-08-10T12:08:40.942Z",
+    "active": true
+  }
+},
+{
+  "model": "marketplace.comment",
+  "pk": 5,
+  "fields": {
+    "product": 8,
+    "name": "Nadiia",
+    "email": "nedilja90@gmail.com",
+    "body": "Yeap",
+    "created": "2024-08-10T12:16:55.106Z",
+    "updated": "2024-08-10T12:16:55.106Z",
+    "active": true
+  }
+},
+{
+  "model": "marketplace.comment",
+  "pk": 6,
+  "fields": {
+    "product": 8,
+    "name": "Nadiia",
+    "email": "nedilja90@gmail.com",
+    "body": "52",
+    "created": "2024-08-10T12:21:00.164Z",
+    "updated": "2024-08-10T12:21:00.164Z",
+    "active": true
+  }
+}
+]

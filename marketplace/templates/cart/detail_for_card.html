@@ -1,0 +1,14 @@
+{% extends "marketplace/base.html" %}
+
+{% block title %}Your Cart{% endblock %}
+
+{% block content %}
+  <h1>Your Cart</h1>
+  <ul>
+    {% for item in cart.cart_items.all %}
+      <li>{{ item.product.title }} - {{ item.quantity }} x {{ item.product.price }} = {{ item.get_total_price }}</li>
+    {% endfor %}
+  </ul>
+  <h3>Total: {{ total }}</h3>
+  <a href="{% url 'marketplace:checkout' %}" class="btn btn-success">Proceed to Checkout</a>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "marketplace/base.html" %}
+
+{% block title %}Add to Cart{% endblock %}
+
+{% block content %}
+  <h1>Add {{ product.title }} to your Cart</h1>
+
+  <form method="post" action="{% url 'marketplace:cart_detail' product.id %}">
+    {% csrf_token %}
+
+    <div class="form-group">
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" value="1" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add to Cart</button>
+    <a href="{% url 'marketplace:cart_detail' product.publish.year product.publish.month product.publish.day product.slug %}" class="btn btn-secondary">Cancel</a>
+  </form>
+{% endblock %}

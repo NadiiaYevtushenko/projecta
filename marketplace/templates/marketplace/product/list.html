@@ -1,0 +1,38 @@
+{% extends "marketplace/base.html" %}
+{% load marketplace_tags %}
+
+{% block title %}MARKETPLACE BINGO{% endblock %}
+
+{% block content %}
+  <h1>MARKETPLACE BINGO</h1>
+    {% if tag %}
+        <h2>Product tagged with "{{ tag.name }}"</h2>
+    {% endif %}
+  {% for product in products %}
+    <h2>
+      <a href="{{ product.get_absolute_url }}">
+        {{ product.title }}
+       </a>
+    </h2>
+    <p class="tags">
+      Tags:
+      {% for tag in product.tags.all %}
+        <a href="{% url "marketplace:product_list_by_tag" tag.slug %}">
+          {{ tag.name }}
+        </a>{% if not forloop.last %}, {% endif %}
+      {% endfor %}
+    </p>
+    <p class="date">
+      Published {{ product.publish }} by {{ product.seller }}
+    </p>
+    {{ product.body|markdown|truncatewords_html:30 }}
+    <p class="price">
+      Price: ${{ product.price }}
+    </p>
+    {{ product.description|truncatewords:30|linebreaks }}
+    <p>
+        <a href="{{ product.get_absolute_url }}" class="btn btn-primary">Buy</a>
+    </p>
+  {% endfor %}
+  {% include "pagination.html" with page=products %}
+{% endblock %}

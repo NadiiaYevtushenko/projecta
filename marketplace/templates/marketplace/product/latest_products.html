@@ -1,0 +1,7 @@
+<ul>
+  {% for product in latest_products %}
+    <li>
+      <a href="{{ product.get_absolute_url }}">{{ product.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

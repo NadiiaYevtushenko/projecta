@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Result</title>
+</head>
+<body>
+    <h1>Asynchronous Task Result</h1>
+
+    {% if result %}
+        <p>The result of the computation is: {{ result }}</p>
+    {% else %}
+        <p>The task is still running. Please wait...</p>
+    {% endif %}
+</body>
+</html>

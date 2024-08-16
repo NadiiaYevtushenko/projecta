@@ -1,0 +1,13 @@
+{% extends "marketplace/base.html" %}
+{% block title %}All Sellers{% endblock %}
+
+{% block content %}
+  <h1>All Sellers</h1>
+  <ul>
+    {% for seller in sellers %}
+      <li>
+        <a href="{{ seller.get_absolute_url }}">{{ seller.user.username }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

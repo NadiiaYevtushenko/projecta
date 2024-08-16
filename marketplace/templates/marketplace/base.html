@@ -1,0 +1,130 @@
+{% load marketplace_tags %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'css/marketplace.css' %}" rel="stylesheet">
+
+    <style>
+        #header {
+            background-color: #2885a7; /* Example header background */
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        /* Sidebar on the right */
+        #container {
+            display: flex;
+            flex-direction: row;
+        }
+        #content {
+            flex: 3;
+            padding: 20px;
+        }
+        #sidebar {
+            flex: 1;
+            padding: 20px;
+            background-color: #f8f9fa; /* Light background for sidebar */
+        }
+
+        /* Styling the logo link */
+        .logo a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        .logo a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling the navigation links */
+        .nav-link {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .nav {
+            display: inline-block;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header" class="container-fluid">
+        <span class="logo">
+            <a href="{% url 'marketplace:product_list' %}">Marketplace</a>
+        </span>
+        <div class="nav">
+            <a href="{% url 'marketplace:seller_list' %}" class="nav-link">All Sellers</a>
+        </div>
+        {% if request.user.is_authenticated %}
+            <span class="user float-right">
+                Hello {{ request.user.first_name|default:request.user.username }},
+                <form action="{% url "marketplace:logout" %}" method="post" class="d-inline">
+                    <button type="submit" class="btn btn-sm btn-light">Logout</button>
+                    {% csrf_token %}
+                </form>
+            </span>
+        {% else %}
+            <a href="{% url 'marketplace:login' %}" class="btn btn-sm btn-light float-right">Log-in</a>
+            {# <a href="{% url 'marketplace:register' %}" class="btn btn-sm btn-light">Registration</a> #}
+        {% endif %}
+    </div>
+
+    <div id="container" class="container-fluid mt-3">
+        <div id="content" class="col-md-9">
+            {% block content %}
+            {% endblock %}
+        </div>
+        <div id="sidebar" class="col-md-3">
+            <h2>Marketplace</h2>
+            <p>MARKETPLACE BINGO</p>
+            <p>
+                This is my website.<br>
+                I'm selling {% total_products %} products.<br>
+                It will be more soon.
+            </p>
+            <p>
+                <a href="{% url "marketplace:product_feed" %}" class="btn btn-primary btn-sm">
+                    Subscribe to my RSS feed for more goods
+                </a>
+            </p>
+
+            <h3>Latest products</h3>
+            {% show_latest_products 3 %}
+
+            <h3>Most popular products</h3>
+            {% get_most_commented_products as most_commented_products %}
+            <ul>
+                {% for product in most_commented_products %}
+                <li>
+                    <a href="{{ product.get_absolute_url }}">{{ product.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <h3>Search for products</h3>
+            <form method="get" action="{% url 'marketplace:product_search' %}" class="form-inline">
+                <input type="text" name="query" placeholder="Search products..." class="form-control mb-2 mr-sm-2">
+                <input type="submit" value="Search" class="btn btn-sm btn-primary">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
